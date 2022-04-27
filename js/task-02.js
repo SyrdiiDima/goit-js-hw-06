@@ -16,28 +16,11 @@ const elements = ingredients.map(ingredient => {
 
   liEl.classList.add('item');
   liEl.textContent = ingredient;
-  const ulEl = document.querySelector('ul');
 
+
+  const ulEl = document.querySelector('ul');
   ulEl.appendChild(liEl)
 
+ 
 });
 
-
-
-
-
-
-
-
-
-
-// const elements = ingredients.map(ingredient => {
-
-//     const liEl = document.createElement('li');
-//     liEl.classList.add('item');
-//     liEl.textContent = ingredient;
-//   return liEl;
-  
-//   });
-// liEl.append(...elements);
-// console.log(...elements);
