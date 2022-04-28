@@ -11,4 +11,9 @@ function onInputValue(event) {
     
     // console.log(event.currentTarget.value);
     titleEl.textContent = event.currentTarget.value;
+    console.log(event.currentTarget.value)
+    
+    if (event.currentTarget.value === "") {
+        titleEl.textContent = 'Anonymous';
+    }
 }
